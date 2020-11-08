@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 
 3) Run the created Python file (or create a cronjob, that's what I did to auto update it)
 
-4) Changes is Dashtics, use below and add to column:
+4) Changes in Dashtics, use below and add to column:
 
 ``` 
 ////////////////////// FRAMES ///////////////////////////
