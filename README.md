@@ -4,7 +4,7 @@ With this program you can check the price over time of a product from MediaMarkt
 This program create an html that you can place in a frame for you Dashtics
 
 1) Create a new file [filename].py (like example.py) and place it in the same dir as mmpricechecker.py and change the variables.
-Make sure you use you dashtics rootfolder as the path. Dashticz will use this for creating the frame.
+Make sure you use your dashtics rootfolder as the path. Dashticz will use this for creating the frame.
 
 2) Make sure you run requirements.txt
 ```
