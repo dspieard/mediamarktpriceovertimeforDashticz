@@ -17,7 +17,7 @@ class MMPriceChecker:
 
     tmpfile = BytesIO()
 
-    # Grabbing the price from the IphoneSe
+    # Grabbing the price
     def grabprice(self):
         req = requests.get(self.url)
         soup = BeautifulSoup(req.content, 'html.parser')
