@@ -7,7 +7,7 @@ htmlname = "/home/pi/dev/dashticz/iphonese.html" # The html path + name which yo
 name = "IphoneSE 128GB"
 
 
-test = MMPriceChecker(name,url,filename,htmlname)
-test.writetofile()
-test.creategraph()
-test.createhtml()
+product = MMPriceChecker(name,url,filename,htmlname)
+product.writetofile()
+product.creategraph()
+product.createhtml()
