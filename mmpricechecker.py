@@ -62,8 +62,8 @@ class MMPriceChecker:
         fig = plt.figure(dpi=65, figsize=(6, 6))
         plt.plot(dates, prices, c='blue')
         plt.title(f"{self.name} @ MediaMarkt", fontsize=16)
-        plt.xlabel("Price", fontsize=12)
-        plt.ylabel("Date", fontsize=12)
+        plt.xlabel("Date", fontsize=12)
+        plt.ylabel("Price", fontsize=12)
         plt.tick_params(axis='both', labelsize=10)
         # Save as html
         plt.savefig(self.tmpfile, format='png')
